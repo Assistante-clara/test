@@ -5,13 +5,10 @@
 **Clara-IA** est un **assistant vocal intelligent** développé en **Node.js** qui fonctionne **entièrement en local** sur Windows. C'est un projet évolutif qui a commencé comme un projet scolaire (S.A.R.A.H) et est devenu un assistant personnel complet.
 
 Élément	                Valeur
----
+
 Nom	                   Clara-IA (anciennement JarvisIA, S.A.R.A.H, Mathilde)
----
 Version	                V1.0
----
 Langage	                Node.js (JavaScript)
----
 Plateforme	             Windows
 Architecture	          Modulaire (plugins)
 Nombre de plugins	       35+
