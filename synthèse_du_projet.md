@@ -3,18 +3,21 @@
 **🎯 SYNTHÈSE DU PROJET**
 **📌 Présentation Générale**
 **Clara-IA** est un **assistant vocal intelligent** développé en **Node.js** qui fonctionne **entièrement en local** sur Windows. C'est un projet évolutif qui a commencé comme un projet scolaire (S.A.R.A.H) et est devenu un assistant personnel complet.
-
-Élément	                Valeur
-
-Nom	                   Clara-IA (anciennement JarvisIA, S.A.R.A.H, Mathilde)
-Version	                V1.0
-Langage	                Node.js (JavaScript)
-Plateforme	             Windows
-Architecture	          Modulaire (plugins)
-Nombre de plugins	       35+
-Créateur	                Frédéric Hermann (P'tit Fred)
-Début du projet	       2013 (S.A.R.A.H)
-Refonte actuelle	       2026
+```text
+┌───────────────────────┬───────────────────────────────────────────────────────┐
+│ Élément	            │ Valeur                                                │
+├───────────────────────┼───────────────────────────────────────────────────────┤
+│ **Nom**	            │  Clara-IA                                             │ 
+│ **Version**	         │  V1.000                                               │ 
+│ **Langage**           │  Node.js (JavaScript)                                 │ 
+│ **Plateforme**	      │  Windows                                              │ 
+│ **Architecture**	   │  Modulaire (plugins)                                  │ 
+│ **Nombre de plugins**	│  95+                                                  │ 
+│ **Créateur**	         │  Frédéric Hermann                                     │ 
+│ **Début du projet**	│  2013                                                 │ 
+│ **Refonte actuelle**	│  2026                                                 │ 
+└───────────────────────────────────────────────────────────────────────────────┘
+```
 
 **🏗️ ARCHITECTURE TECHNIQUE**
 ```text
@@ -72,7 +75,7 @@ C:\ClaraIA\
 │           ├── 📄 meteo.js
 │           └── 📄 ...
 │
-├── 📂 plugins/                         # 35+ plugins
+├── 📂 plugins/                         # 95+ plugins
 │   ├── 📂 bonjour/                    # Reconnaissance faciale + salutation
 │   ├── 📂 face_recognition/           # Reconnaissance faciale
 │   ├── 📂 info/                       # Actualités RSS
@@ -83,18 +86,17 @@ C:\ClaraIA\
 │   ├── 📂 programme/                  # Gestion logiciels
 │   ├── 📂 suntzu/                     # Citations Sun Tzu
 │   ├── 📂 journal_de_bord/            # Journal de bord
-│   └── 📂 ...                         # + 25 autres
+│   └── 📂 ...                         # + 85 autres
 │
 ├── 📂 temp/                            # Fichiers temporaires
 ├── 📂 logs/                            # Logs
 └── 📄 journal.json                     # Journal de bord
 ```
 
-✅ FONCTIONNALITÉS PRINCIPALES
-🎤 1. Reconnaissance Vocale
-Technologie : Web Speech API (Chrome)
-
-Langue : Français
+**✅ FONCTIONNALITÉS PRINCIPALES**
+**🎤 1. Reconnaissance Vocale**
+- **Technologie :** Web Speech API (Chrome)
+- **Langue :** Français
 
 Déclencheur : "Clara" + commande
 
